@@ -1,0 +1,33 @@
+{
+    "compilerOptions": {
+      "target": "ES2022",
+      "module": "commonjs",
+      "lib": ["ESNext"],
+      "outDir": "./dist",
+      "rootDir": "./src",
+      "moduleResolution": "Node",
+      "esModuleInterop": true,
+      "forceConsistentCasingInFileNames": true,
+      "strict": true,
+      "noImplicitAny": true,
+      "strictNullChecks": true,
+      "strictFunctionTypes": true,
+      "strictBindCallApply": true,
+      "strictPropertyInitialization": true,
+      "noImplicitThis": true,
+      "alwaysStrict": true,
+      "removeComments": false,
+      "declaration": true,
+      "sourceMap": true,
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true
+    },
+    "exclude": [
+      "node_modules",
+      "**/*.spec.ts",
+      "dist"
+    ],
+    "include": [
+      "./src/**/*"
+    ]
+  }
